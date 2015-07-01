@@ -27,13 +27,14 @@ end
 
 #Test
 group :test do
-  gem "rspec-rails", "~> 2.14"
-  gem "factory_girl_rails"
+  gem 'rspec-rails', '~> 2.14'
+  gem 'factory_girl_rails'
   gem 'ffaker'
+  gem 'shoulda-matchers'
 end
 
 #Authentication
-gem "devise"
+gem 'devise'
 
 
 
