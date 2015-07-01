@@ -32,4 +32,8 @@ group :test do
   gem 'ffaker'
 end
 
+#Authentication
+gem "devise"
+
+
 
